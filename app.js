@@ -17,6 +17,7 @@ app.post("/", (req, res) => {
   });
 });
 // app.use("/get");
+//middleware
 app.use("/user", userroute);
 app.use("/review", reviewroute);
 
